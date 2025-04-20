@@ -20,3 +20,10 @@ cmake --build .
 для релиза
 cmake -G "MinGW Makefiles" -DCMAKE_BUILD_TYPE=Release ..
 
+
+для автономной работы надо докинуть из каталога msys64\mingw64\bin\ библиотеки:
+libwinpthread-1.dll
+libgcc_s_seh-1.dll
+libstdc++-6.dll
+
+
